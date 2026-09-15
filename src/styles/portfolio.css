@@ -100,7 +100,7 @@ footer {
   pointer-events: none;
 }
 
-.hero__rays {
+.hero > .hero__rays {
   position: absolute;
   z-index: 0;
   inset: 0 0 auto;
@@ -495,7 +495,7 @@ footer {
   background: var(--ink);
 }
 
-.contact__molten {
+.contact > .contact__molten {
   position: absolute;
   z-index: 0;
   inset: 0;
