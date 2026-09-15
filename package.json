@@ -1,58 +1,36 @@
 {
-
   "name": "tan-qing-portfolio",
-
   "private": true,
-
   "version": "0.1.0",
-
   "type": "module",
-
   "packageManager": "pnpm@11.19.0",
-
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@ffmpeg-installer/ffmpeg",
+      "@ffmpeg-installer/linux-x64",
+      "esbuild"
+    ]
+  },
   "scripts": {
-
     "dev": "vite",
-
     "build": "vite build",
-
     "preview": "vite preview",
-
     "test": "vitest",
-
     "test:run": "vitest run",
-
     "generate:video": "node scripts/generate-hero-video.mjs"
-
   },
-
   "dependencies": {
-
     "ogl": "^1.0.11",
-
     "react": "^19.1.1",
-
     "react-dom": "^19.1.1"
-
   },
-
   "devDependencies": {
-
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
-
     "@testing-library/jest-dom": "^6.8.0",
-
     "@testing-library/react": "^16.3.0",
-
     "@vitejs/plugin-react": "^5.0.2",
-
     "jsdom": "^26.1.0",
-
     "vite": "^7.1.7",
-
     "vitest": "^3.2.4"
-
   }
-
 }
-
