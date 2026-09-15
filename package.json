@@ -20,9 +20,7 @@
 
     "test": "vitest",
 
-    "test:run": "vitest run",
-
-    "generate:video": "node scripts/generate-hero-video.mjs"
+    "test:run": "vitest run"
 
   },
 
@@ -37,8 +35,6 @@
   },
 
   "devDependencies": {
-
-    "@ffmpeg-installer/ffmpeg": "^1.1.0",
 
     "@testing-library/jest-dom": "^6.8.0",
 
@@ -55,4 +51,3 @@
   }
 
 }
-
