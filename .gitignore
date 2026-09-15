@@ -1,0 +1,17 @@
+node_modules/
+.pnpm-store/
+dist/
+tmp/
+.env
+.env.*
+!.env.example
+素材/
+作品集_完整导出_*/
+.superpowers/
+
+*.log
+.vite-*
+implementation-*.jpg
+
+.DS_Store
+Thumbs.db
