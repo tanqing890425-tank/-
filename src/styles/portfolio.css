@@ -724,6 +724,11 @@ footer {
     display: none;
   }
 
+  .hero {
+    --hero-fade-start: 280px;
+    --hero-fade-height: 400px;
+  }
+
   .hero,
   .hero__content {
     min-height: 680px;
