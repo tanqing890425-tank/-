@@ -853,20 +853,22 @@ footer {
   }
 
   .site-footer__main {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 24px;
+    align-items: center;
+    flex-direction: row;
+    gap: clamp(16px, 5vw, 28px);
   }
 
   .site-footer__brand {
-    width: 130px;
+    width: clamp(108px, 33vw, 130px);
   }
 
   .site-footer__nav {
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 14px 22px;
+    width: auto;
+    flex: 0 0 auto;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: clamp(24px, 7vw, 42px);
+    margin-left: auto;
   }
 }
 
