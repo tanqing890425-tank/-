@@ -716,14 +716,6 @@ footer {
     scroll-margin-top: 72px;
   }
 
-  .site-header__brand {
-    width: 130px;
-  }
-
-  .site-nav {
-    display: none;
-  }
-
   .hero {
     --hero-fade-start: 280px;
     --hero-fade-height: 400px;
@@ -863,11 +855,14 @@ footer {
     gap: clamp(16px, 5vw, 28px);
   }
 
+  .site-header__brand,
   .site-footer__brand {
     width: clamp(108px, 33vw, 130px);
   }
 
+  .site-nav,
   .site-footer__nav {
+    display: flex;
     width: auto;
     flex: 0 0 auto;
     flex-wrap: nowrap;
